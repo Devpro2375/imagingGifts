@@ -2,10 +2,9 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import TopNavOne from "@/components/Header/TopNav/TopNavOne";
-import MenuOne from "@/components/Header/Menu/MenuOne";
+
 import Breadcrumb from "@/components/Home/Heading";
-import Footer from "@/components/Footer/Footer";
+
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { motion } from "framer-motion";
 
@@ -25,12 +24,9 @@ const MyAccount = () => {
 
   return (
     <>
-      <TopNavOne
-        props="style-one bg-black"
-        slogan="New customers save 10% with the code GET10"
-      />
+    
       <div id="header" className="relative w-full">
-        <MenuOne props="bg-transparent" />
+      
         <Breadcrumb heading="My Account" subHeading="My Account" />
       </div>
       <div className="profile-block md:py-20 py-10">
@@ -1205,7 +1201,7 @@ const MyAccount = () => {
           </div>
         </div>
       </div>
-      <Footer />
+    
       <div
         className={`modal-order-detail-block flex items-center justify-center`}
         onClick={() => setOpenDetail(false)}

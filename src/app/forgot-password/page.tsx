@@ -7,12 +7,9 @@ import ShopMainMenu from "@/components/Shop/ShopMainMenu";
 const ForgotPassword = () => {
   return (
     <>
-      <TopNavOne
-        props="style-one bg-black"
-        slogan="New customers save 10% with the code GET10"
-      />
+     
       <div id="header" className="relative w-full">
-        <ShopMainMenu />
+      
         <Breadcrumb
           heading="Forget your password"
           subHeading="Forget your password"
